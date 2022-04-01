@@ -1,0 +1,36 @@
+
+/** 设置根面板的背景图片 */
+.root-background1{
+    -fx-background-image: url(../images/login-background1.png);
+}
+
+.root-background2{
+    -fx-background-image: url(../images/login-background2.png);
+}
+
+/** 登录界面的大小标题文字样式 */
+.firstTitle{
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold; /* 文字加粗 */
+}
+
+.secondTitle{
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5f5f5f;
+}
+
+/* 登录按钮的样式 */
+.btnLogin{
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #009789;
+}
+
+.hand{
+    -fx-cursor: hand;
+}

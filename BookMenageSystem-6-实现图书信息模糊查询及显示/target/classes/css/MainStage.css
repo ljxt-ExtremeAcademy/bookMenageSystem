@@ -1,0 +1,30 @@
+
+.headPane-background{
+    -fx-background-color: #2C3E50;
+}
+
+/** 设置top-center部分的按钮样式 */
+.header-nav-button{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 55px;
+    -fx-background-color: transparent; /* 透明色 */
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/** 鼠标经过时的样式 */
+.header-nav-button:hover{
+    -fx-background-color: #1A242F;
+}
+/** 为选中的按钮单独设置一个样式 */
+.header-nav-button-selected{
+    -fx-background-color: #1A242F;
+}
+
+/* 设置管理员欢迎信息的文字颜色 */
+.header-nav-username{
+    -fx-text-fill: white;
+}
